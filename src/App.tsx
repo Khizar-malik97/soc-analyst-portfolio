@@ -1,10 +1,16 @@
+import { BrowserRouter, Routes, Route } from 'react-router'
+import MainLayout from './layouts/MainLayout'
+import Home from './pages/Home'
+
 function App() {
   return (
-    <div className="min-h-screen bg-background text-white flex items-center justify-center">
-      <h1 className="text-4xl font-bold">
-        Hello, <span className="text-accent">SOC Analyst</span> Portfolio
-      </h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
