@@ -5,6 +5,8 @@ import About from './pages/About'
 import Skills from './pages/Skills'
 import Projects from './pages/Projects'
 import ProjectDetail from './pages/ProjectDetail'
+import Reports from './pages/Reports'
+import ReportDetail from './pages/ReportDetail'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 
@@ -18,6 +20,8 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:id" element={<ProjectDetail />} />
+          <Route path="/reports" element={<Reports />} />
+          <Route path="/reports/:id" element={<ReportDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Route>
