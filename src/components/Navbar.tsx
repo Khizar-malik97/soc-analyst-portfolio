@@ -7,6 +7,7 @@ const navLinks = [
   { label: 'Projects', path: '/projects' },
   { label: 'Reports', path: '/reports' },
   { label: 'Rules', path: '/detection-rules' },
+  { label: 'Playbooks', path: '/playbooks' },
   { label: 'Contact', path: '/contact' },
 ]
 
