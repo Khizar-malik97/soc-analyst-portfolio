@@ -12,6 +12,7 @@ import NotFound from './pages/NotFound'
 import DetectionRules from './pages/DetectionRules'
 import Playbooks from './pages/Playbooks'
 import DetectionLab from './pages/DetectionLab'
+import Certifications from './pages/Certifications'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/detection-rules" element={<DetectionRules />} />
           <Route path="/playbooks" element={<Playbooks />} />
           <Route path="/detection-lab" element={<DetectionLab />} />
+          <Route path="/certifications" element={<Certifications />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
