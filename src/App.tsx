@@ -14,6 +14,7 @@ import Playbooks from './pages/Playbooks'
 import DetectionLab from './pages/DetectionLab'
 import Certifications from './pages/Certifications'
 import Connect from './pages/Connect'
+import Resume from './pages/Resume'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/playbooks" element={<Playbooks />} />
           <Route path="/detection-lab" element={<DetectionLab />} />
           <Route path="/certifications" element={<Certifications />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="/connect" element={<Connect />} />
           <Route path="*" element={<NotFound />} />
         </Route>
