@@ -1,4 +1,4 @@
-﻿import { Mail } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import { SiGithub } from '@icons-pack/react-simple-icons'
 
 function LinkedInIcon() {
@@ -19,14 +19,14 @@ function Footer() {
           <a href="https://github.com/Khizar-malik97" target="_blank" rel="noopener noreferrer" className="text-muted transition-colors hover:text-accent" aria-label="GitHub">
             <SiGithub size={20} />
           </a>
-          <a href="https://linkedin.com/in/your-linkedin-handle" target="_blank" rel="noopener noreferrer" className="text-muted transition-colors hover:text-accent" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/khizarulislam79" target="_blank" rel="noopener noreferrer" className="text-muted transition-colors hover:text-accent" aria-label="LinkedIn">
             <LinkedInIcon />
           </a>
           <a href="mailto:mrkhizar97@gmail.com" className="text-muted transition-colors hover:text-accent" aria-label="Email">
             <Mail size={20} />
           </a>
         </div>
-        <p className="text-sm text-muted">© {year} Khizar Ul Islam. Built with React, TypeScript & Tailwind CSS.</p>
+        <p className="text-sm text-muted">� {year} Khizar Ul Islam. Built with React, TypeScript & Tailwind CSS.</p>
       </div>
     </footer>
   )

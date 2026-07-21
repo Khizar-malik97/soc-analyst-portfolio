@@ -1,4 +1,4 @@
-﻿import { SiGithub } from '@icons-pack/react-simple-icons'
+import { SiGithub } from '@icons-pack/react-simple-icons'
 import { Star, GitFork } from 'lucide-react'
 
 function LinkedInIcon({ size = 24 }: { size?: number }) {
@@ -56,7 +56,7 @@ function Connect() {
         <p className="mt-3 max-w-xl text-sm text-muted">
           Connect with me on LinkedIn to see my professional summary, recommendations, and career updates.
         </p>
-        <a href="https://linkedin.com/in/your-linkedin-handle" target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex items-center gap-2 rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-background transition-transform hover:scale-105">
+        <a href="https://www.linkedin.com/in/khizarulislam79" target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex items-center gap-2 rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-background transition-transform hover:scale-105">
           <LinkedInIcon size={16} />
           View LinkedIn Profile
         </a>
