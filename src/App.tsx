@@ -13,6 +13,7 @@ import DetectionRules from './pages/DetectionRules'
 import Playbooks from './pages/Playbooks'
 import DetectionLab from './pages/DetectionLab'
 import Certifications from './pages/Certifications'
+import Connect from './pages/Connect'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/playbooks" element={<Playbooks />} />
           <Route path="/detection-lab" element={<DetectionLab />} />
           <Route path="/certifications" element={<Certifications />} />
+          <Route path="/connect" element={<Connect />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
