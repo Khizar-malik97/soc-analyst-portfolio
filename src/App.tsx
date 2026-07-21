@@ -9,6 +9,7 @@ import Reports from './pages/Reports'
 import ReportDetail from './pages/ReportDetail'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
+import DetectionRules from './pages/DetectionRules'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/reports" element={<Reports />} />
           <Route path="/reports/:id" element={<ReportDetail />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/detection-rules" element={<DetectionRules />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
