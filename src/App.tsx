@@ -11,6 +11,7 @@ import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import DetectionRules from './pages/DetectionRules'
 import Playbooks from './pages/Playbooks'
+import DetectionLab from './pages/DetectionLab'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/detection-rules" element={<DetectionRules />} />
           <Route path="/playbooks" element={<Playbooks />} />
+          <Route path="/detection-lab" element={<DetectionLab />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
