@@ -1,4 +1,4 @@
-import { Mail } from 'lucide-react'
+ï»¿import { Mail } from 'lucide-react'
 import { SiGithub } from '@icons-pack/react-simple-icons'
 
 function LinkedInIcon() {
@@ -26,7 +26,7 @@ function Footer() {
             <Mail size={20} />
           </a>
         </div>
-        <p className="text-sm text-muted">© {year} Khizar Ul Islam. Built with React, TypeScript & Tailwind CSS.</p>
+        <p className="text-sm text-muted">(c) {year} Khizar Ul Islam. Built with React, TypeScript &amp; Tailwind CSS.</p>
       </div>
     </footer>
   )
