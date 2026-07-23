@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import type { Project } from '../types/project'
+﻿import { useMemo, useState } from 'react'
+import type { Project } from '@/types/project'
 
 function useProjectFilter(projects: Project[]) {
   const [activeFilter, setActiveFilter] = useState('All')

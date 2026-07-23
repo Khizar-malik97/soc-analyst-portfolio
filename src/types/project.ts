@@ -1,4 +1,4 @@
-export interface Project {
+﻿export interface Project {
   id: string
   title: string
   description: string
@@ -7,7 +7,5 @@ export interface Project {
   skillsLearned: string[]
   mitreAttack: string[]
   githubUrl: string
-  demoUrl?: string
-  documentationUrl?: string
   futureImprovements: string[]
 }

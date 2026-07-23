@@ -1,3 +1,5 @@
+﻿'use client'
+
 import { useEffect, useRef, useState } from 'react'
 import Prism from 'prismjs'
 import 'prismjs/components/prism-yaml'

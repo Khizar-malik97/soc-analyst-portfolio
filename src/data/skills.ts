@@ -1,4 +1,4 @@
-import type { Skill } from '../types/skill'
+﻿import type { Skill } from '@/types/skill'
 
 export const skills: Skill[] = [
   { name: 'Networking', category: 'Networking', proficiency: 4 },

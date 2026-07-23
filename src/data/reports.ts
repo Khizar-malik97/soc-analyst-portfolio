@@ -1,4 +1,4 @@
-import type { SocReport } from '../types/report'
+﻿import type { SocReport } from '@/types/report'
 
 export const reports: SocReport[] = [
   {

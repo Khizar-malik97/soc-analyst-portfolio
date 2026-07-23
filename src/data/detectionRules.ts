@@ -1,4 +1,4 @@
-import type { DetectionRule } from '../types/detectionRule'
+﻿import type { DetectionRule } from '@/types/detectionRule'
 
 export const detectionRules: DetectionRule[] = [
   {
@@ -17,9 +17,9 @@ logsource:
 detection:
   selection:
     ParentImage|endswith:
-      - '\\WINWORD.EXE'
-      - '\\EXCEL.EXE'
-    Image|endswith: '\\powershell.exe'
+      - '\WINWORD.EXE'
+      - '\EXCEL.EXE'
+    Image|endswith: '\powershell.exe'
     CommandLine|contains:
       - '-enc'
       - '-EncodedCommand'

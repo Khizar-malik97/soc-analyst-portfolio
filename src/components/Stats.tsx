@@ -1,4 +1,4 @@
-import StatCounter from './StatCounter'
+﻿import StatCounter from './StatCounter'
 
 const stats = [
   { target: 12, label: 'Projects Completed', suffix: '+' },

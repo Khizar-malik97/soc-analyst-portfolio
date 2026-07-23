@@ -1,4 +1,4 @@
-export interface SocReport {
+﻿export interface SocReport {
   id: string
   title: string
   executiveSummary: string

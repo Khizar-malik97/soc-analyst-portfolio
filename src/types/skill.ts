@@ -1,4 +1,4 @@
-export type SkillCategory =
+﻿export type SkillCategory =
   | 'Networking'
   | 'Operating Systems'
   | 'SIEM & Detection'
@@ -9,5 +9,5 @@ export type SkillCategory =
 export interface Skill {
   name: string
   category: SkillCategory
-  proficiency: 1 | 2 | 3 | 4 | 5
+  proficiency: number
 }

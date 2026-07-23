@@ -1,5 +1,5 @@
-import { Link } from 'react-router'
-import type { SocReport } from '../types/report'
+﻿import Link from 'next/link'
+import type { SocReport } from '@/types/report'
 
 interface ReportCardProps {
   report: SocReport
@@ -8,7 +8,7 @@ interface ReportCardProps {
 function ReportCard({ report }: ReportCardProps) {
   return (
     <Link
-      to={`/reports/${report.id}`}
+      href={`/reports/${report.id}`}
       className="block rounded-lg border border-border bg-card p-6 transition-colors hover:border-accent"
     >
       <h3 className="text-lg font-semibold text-white">{report.title}</h3>

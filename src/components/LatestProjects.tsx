@@ -1,5 +1,5 @@
-import { Link } from 'react-router'
-import { projects } from '../data/projects'
+﻿import Link from 'next/link'
+import { projects } from '@/data/projects'
 import ProjectCard from './ProjectCard'
 
 function LatestProjects() {
@@ -11,7 +11,7 @@ function LatestProjects() {
             Latest Projects
           </h2>
           <Link
-            to="/projects"
+            href="/projects"
             className="text-sm font-medium text-accent hover:underline"
           >
             View All →

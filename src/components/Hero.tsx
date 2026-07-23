@@ -1,8 +1,10 @@
-﻿import { motion } from 'framer-motion'
+﻿'use client'
+
+import { motion } from 'framer-motion'
 import { FileText, Mail } from 'lucide-react'
 import { SiGithub } from '@icons-pack/react-simple-icons'
-import { Link } from 'react-router'
-import useTypewriter from '../hooks/useTypewriter'
+import Link from 'next/link'
+import useTypewriter from '@/hooks/useTypewriter'
 
 const roles = ['SOC Analyst', 'Detection Engineer', 'Threat Hunter', 'Incident Responder']
 
@@ -37,7 +39,7 @@ function Hero() {
           <SiGithub size={16} />
           GitHub
         </a>
-        <Link to="/contact" className="flex items-center gap-2 rounded-md border border-border px-5 py-2.5 text-sm font-medium text-white transition-colors hover:border-accent hover:text-accent">
+        <Link href="/contact" className="flex items-center gap-2 rounded-md border border-border px-5 py-2.5 text-sm font-medium text-white transition-colors hover:border-accent hover:text-accent">
           <Mail size={16} />
           Contact
         </Link>

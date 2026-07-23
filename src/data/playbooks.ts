@@ -1,4 +1,4 @@
-import type { Playbook } from '../types/playbook'
+﻿import type { Playbook } from '@/types/playbook'
 
 export const playbooks: Playbook[] = [
   {

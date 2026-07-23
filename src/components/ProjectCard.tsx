@@ -1,6 +1,6 @@
-﻿import { Link } from 'react-router'
+﻿import Link from 'next/link'
 import { SiGithub } from '@icons-pack/react-simple-icons'
-import type { Project } from '../types/project'
+import type { Project } from '@/types/project'
 
 interface ProjectCardProps {
   project: Project
@@ -23,7 +23,7 @@ function ProjectCard({ project }: ProjectCardProps) {
           <SiGithub size={15} />
           Code
         </a>
-        <Link to={`/projects/${project.id}`} className="text-sm font-medium text-accent hover:underline">
+        <Link href={`/projects/${project.id}`} className="text-sm font-medium text-accent hover:underline">
           View Details →
         </Link>
       </div>

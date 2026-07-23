@@ -1,4 +1,4 @@
-import { Link } from 'react-router'
+﻿import Link from 'next/link'
 import { Mail } from 'lucide-react'
 
 function CallToAction() {
@@ -13,7 +13,7 @@ function CallToAction() {
           Reach out and let's discuss how I can help protect your organization.
         </p>
         <Link
-          to="/contact"
+          href="/contact"
           className="mt-2 flex items-center gap-2 rounded-md bg-accent px-6 py-3 text-sm font-semibold text-background transition-transform hover:scale-105"
         >
           <Mail size={16} />

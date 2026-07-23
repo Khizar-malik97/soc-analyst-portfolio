@@ -1,4 +1,4 @@
-import { Link } from 'react-router'
+﻿import Link from 'next/link'
 
 const navLinks = [
   { label: 'Home', path: '/' },
@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link to="/" className="text-lg font-bold text-white">
+        <Link href="/" className="text-lg font-bold text-white">
           Khizar<span className="text-accent">.</span>
         </Link>
 
@@ -23,7 +23,7 @@ function Navbar() {
           {navLinks.map((link) => (
             <li key={link.path}>
               <Link
-                to={link.path}
+                href={link.path}
                 className="text-sm font-medium text-muted transition-colors hover:text-accent"
               >
                 {link.label}

@@ -1,4 +1,4 @@
-export interface TimelineEntry {
+﻿export interface TimelineEntry {
   id: string
   type: 'education' | 'experience' | 'certification'
   title: string
